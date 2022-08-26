@@ -4,6 +4,7 @@
     <router-link to="/">回首頁</router-link>
     <router-link to="/items">items</router-link>
     <router-link to="/test-id-page/123">testIdPage</router-link>
+    <router-link to="/router-view-test">router-view-test</router-link>
     <router-link to="/123213">404</router-link>
   </menu>
 </template>
