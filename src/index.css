@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* link active */
+.router-link-active,
+.router-link-exact-active {
+  @apply text-primary bg-primary-light border-primary relative before:content-[''] before:inline-block before:w-[3px] before:h-full before:absolute before:top-0 before:bottom-0 before:left-0 before:bg-primary;
+}
+
+@layer base {
+  /* button */
+  .btn {
+    @apply align-middle transition duration-150 ease-linear;
+  }
+  .btn:focus {
+    @apply outline-none;
+  }
+  .btn-primary {
+    @apply text-white rounded bg-primary;
+  }
+  .btn-primary:hover {
+    @apply bg-primary-dark;
+  }
+  
+  .btn-gray {
+    @apply text-gray-500 rounded bg-gray-100;
+  }
+  .btn-gray:hover {
+    @apply bg-gray-200;
+  }
+  
+  /* outline button */
+  .btn-outline-red {
+    @apply text-primary border border-primary rounded bg-primary-light;
+  }
+  .btn-outline-red:hover {
+    background-color: #ffdbdc;
+  }
+
+  .btn-outline-gray {
+    @apply text-gray-500 border border-gray-300 rounded ;
+  }
+  .btn-outline-gray:hover {
+    @apply bg-gray-100;
+  }
+}

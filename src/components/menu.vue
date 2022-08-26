@@ -1,3 +1,3 @@
 <template>
-  <menu>123</menu>
+  <menu class="text-primary">123</menu>
 </template>
