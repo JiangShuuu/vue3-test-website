@@ -1,3 +1,7 @@
 <template>
-  <menu class="text-primary">123</menu>
+  <menu class="border p-2 flex items-center space-x-2">
+    <h1 class="mr-4 text-3xl">Menu</h1>
+    <router-link to="/">回首頁</router-link>
+    <router-link to="/123213">404</router-link>
+  </menu>
 </template>

@@ -5,7 +5,7 @@
 /* link active */
 .router-link-active,
 .router-link-exact-active {
-  @apply text-primary bg-primary-light border-primary relative before:content-[''] before:inline-block before:w-[3px] before:h-full before:absolute before:top-0 before:bottom-0 before:left-0 before:bg-primary;
+  @apply border border-red-100 p-1 hover:bg-red-300;
 }
 
 @layer base {
