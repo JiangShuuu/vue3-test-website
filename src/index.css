@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.router {
+  @apply border border-red-100 p-1 hover:bg-red-300;
+}
+
 /* link active */
 .router-link-active,
 .router-link-exact-active {
