@@ -7,4 +7,9 @@ const router = createRouter({
   routes: setupLayouts(generatedRoutes)
 })
 
+router.beforeEach(async (to, from, next) => {
+  console.log(to.meta)
+  next()
+})
+
 export default router

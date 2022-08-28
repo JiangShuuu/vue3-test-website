@@ -13,3 +13,9 @@
     </section>
   </main>
 </template>
+
+<route lang="yaml">
+meta:
+  auth: member-page
+  sss: router-is-good
+</route>
