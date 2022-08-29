@@ -5,7 +5,6 @@ import Layouts from 'vite-plugin-vue-layouts'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/vue3-test-website/',
   plugins: [
     vue(),
 
