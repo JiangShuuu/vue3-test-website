@@ -3,7 +3,7 @@ import { setupLayouts } from 'virtual:generated-layouts'
 import generatedRoutes from 'virtual:generated-pages'
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('vue3-test-website'),
   routes: setupLayouts(generatedRoutes)
 })
 
