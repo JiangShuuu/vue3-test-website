@@ -8,7 +8,7 @@ const router = createRouter({
 })
 
 router.beforeEach(async (to, from, next) => {
-  console.log('toPath', to.meta)
+  console.log('toPaths', to.meta)
   next()
 })
 
