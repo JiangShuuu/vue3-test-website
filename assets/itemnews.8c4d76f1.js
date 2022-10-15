@@ -1,0 +1,1 @@
+import{e as t,o as s,c as n,t as a,u as o,f as r}from"./index.6baeb139.js";const i=t({__name:"itemnews",setup(c){const e=r();return(m,p)=>(s(),n("p",null,"items/"+a(o(e).params.id)+"/itemnews",1))}});export{i as default};

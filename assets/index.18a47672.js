@@ -1,0 +1,1 @@
+import{e as t,o as s,c as a,t as n,u as o,f as r}from"./index.6baeb139.js";const m=t({__name:"index",setup(c){const e=r();return(p,u)=>(s(),a("p",null,"items/"+n(o(e).params.id),1))}});export{m as default};

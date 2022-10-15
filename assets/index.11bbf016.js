@@ -1,0 +1,1 @@
+import{e as t,o as a,c as s,t as n,u as o,f as r}from"./index.6baeb139.js";const _=t({__name:"index",setup(p){const e=r();return(c,u)=>(a(),s("p",null,"test-id-page/"+n(o(e).params.id),1))}});export{_ as default};
